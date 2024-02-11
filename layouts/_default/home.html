@@ -1,0 +1,115 @@
+{{define "main"}}
+
+<section class="tile">
+  <div class="container">
+    <div class="row tile-bg" id="page-container">
+      {{ $counter := 1 }}
+      <!---->
+      {{ $sortedTiles := slice }}
+      <!---->
+
+      {{ range .Site.RegularPages }}
+      <!---->
+      {{ if eq .Section "tiles" }}
+      <!---->
+      {{ $sortedTiles = $sortedTiles | append . }}
+      <!---->
+      {{ end }}
+      <!---->
+      {{ end }}
+      <!---->
+
+      {{ $sortedTiles := $sortedTiles | sort }}
+      <!---->
+
+      {{ range $sortedTiles }}
+      <div
+        id="page-{{ $counter }}"
+        class="col-lg-4 col-md-6 col-sm-12 p-4 d-flex align-items-stretch"
+      >
+        <div class="card">
+          {{with .Params.hero}}
+          <div class="img-section">
+            {{range .tags}}
+            <a>{{.}}</a>
+            {{end}}
+            <img src="{{.image}}" alt="" />
+          </div>
+          <div class="info text-center">
+            <h3>{{.title}}</h3>
+            <h6>{{.date}}</h6>
+            <p>{{.description}}</p>
+            {{end}}
+            <a href="{{.Permalink}}">Read More</a>
+          </div>
+        </div>
+      </div>
+      <!---->
+      {{ $counter = add $counter 1 }}
+
+      <!---->
+      {{end}}
+      <div class="btn">
+        <button id="showMoreButton">Show More</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    // Hide all pages initially
+    hideAllPages();
+
+    // Show the first 9 pages
+    showPages(1, 9);
+
+    // Hide the "Show More" button initially if there are no more pages to show
+    if (document.querySelectorAll(".col-lg-4:not(.d-none)").length <= 7) {
+      document.getElementById("showMoreButton").classList.add("d-none");
+    }
+
+    // Add event listener to the button
+    document
+      .getElementById("showMoreButton")
+      .addEventListener("click", function () {
+        // Get the number of pages currently shown
+        var currentPageCount = document.querySelectorAll(
+          ".col-lg-4:not(.d-none)"
+        ).length;
+
+        // Calculate the next range of pages to show
+        var nextPageStart = currentPageCount + 1;
+        var nextPageEnd = nextPageStart + 8;
+
+        // Show the next range of pages
+        showPages(nextPageStart, nextPageEnd);
+
+        // Hide the button if all pages are shown
+        if (
+          document.querySelectorAll(".col-lg-4:not(.d-none)").length ===
+          document.querySelectorAll(".col-lg-4").length
+        ) {
+          document.getElementById("showMoreButton").classList.add("d-none");
+        }
+      });
+  });
+
+  function showPages(start, end) {
+    var pages = document.querySelectorAll(".col-lg-4");
+    for (var i = 0; i < pages.length; i++) {
+      if (i >= start - 1 && i < end) {
+        pages[i].classList.remove("d-none");
+      }
+    }
+  }
+
+  function hideAllPages() {
+    var pages = document.querySelectorAll(".col-lg-4");
+    for (var i = 9; i < pages.length; i++) {
+      pages[i].classList.add("d-none");
+    }
+  }
+</script>
+
+{{end}}
