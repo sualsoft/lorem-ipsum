@@ -5,41 +5,25 @@
     <div class="row tile-bg" id="page-container">
       {{ $counter := 1 }}
       <!---->
-      {{ $sortedTiles := slice }}
-      <!---->
 
-      {{ range .Site.RegularPages }}
-      <!---->
-      {{ if eq .Section "posts" }}
-      <!---->
-      {{ $sortedTiles = $sortedTiles | append . }}
-      <!---->
-      {{ end }}
-      <!---->
-      {{ end }}
-      <!---->
+      {{ range where .Site.RegularPages "Section" "post" }}
 
-      {{ $sortedTiles := $sortedTiles | sort }}
-      <!---->
-
-      {{ range $sortedTiles }}
       <div
         id="page-{{ $counter }}"
         class="col-lg-4 col-md-6 col-sm-12 p-4 d-flex align-items-stretch"
       >
         <div class="card">
-          {{with .Params.hero}}
           <div class="img-section">
-            {{range .tags}}
-            <a>{{.}}</a>
+            {{ range .Params.tags }}
+            <a href="/tags/{{ . | urlize }}">{{.}}</a>
             {{end}}
-            <img src="{{.image}}" alt="" />
+            <img src="{{ .Params.thumbnail }}" alt="" />
           </div>
           <div class="info text-center">
-            <h3>{{.title}}</h3>
-            <h6>{{.date}}</h6>
-            <p>{{.description}}</p>
-            {{end}}
+            <h3>{{ .Title }}</h3>
+            <h6>{{ .Date.Format "January 2, 2006" }}</h6>
+            <p>{{.Description}}</p>
+
             <a href="{{.Permalink}}">Read More</a>
           </div>
         </div>
