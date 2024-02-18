@@ -6,7 +6,8 @@
       {{ $counter := 1 }}
       <!---->
 
-      {{ range where .Site.RegularPages "Section" "post" }}
+      {{ range sort (where .Site.RegularPages "Section" "post") ".Date" "desc"
+      }}
 
       <div
         id="page-{{ $counter }}"
