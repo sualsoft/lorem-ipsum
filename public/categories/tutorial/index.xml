@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tutorial on Lorem Ipsum</title>
+    <link>https://sensational-rugelach-b0be35.netlify.app/categories/tutorial/</link>
+    <description>Recent content in tutorial on Lorem Ipsum</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 01 Jan 2024 23:34:56 +0530</lastBuildDate>
+    <atom:link href="https://sensational-rugelach-b0be35.netlify.app/categories/tutorial/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Quick Tip: Sort by directory size in linux</title>
+      <link>https://sensational-rugelach-b0be35.netlify.app/post/2024-01-01_foo_bar_1/</link>
+      <pubDate>Mon, 01 Jan 2024 23:34:56 +0530</pubDate>
+      <guid>https://sensational-rugelach-b0be35.netlify.app/post/2024-01-01_foo_bar_1/</guid>
+      <description>If you&amp;rsquo;ve got files hidden around your system and you don&amp;rsquo;t know where they are, you can use a quick command to track them down and sort them with the largest first. Handy when trying to prune your old files or free up space on your hard disk.&#xA;Try this:&#xA;sudo du --max-depth=1 /home/ | sort -n -rs </description>
+    </item>
+  </channel>
+</rss>

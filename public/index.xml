@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lorem ipsum dolor sit amet on Lorem Ipsum</title>
+    <link>https://sensational-rugelach-b0be35.netlify.app/</link>
+    <description>Recent content in Lorem ipsum dolor sit amet on Lorem Ipsum</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 09 Jan 2024 23:34:56 +0530</lastBuildDate>
+    <atom:link href="https://sensational-rugelach-b0be35.netlify.app/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Foo this is an article</title>
+      <link>https://sensational-rugelach-b0be35.netlify.app/post/2023-05-12_foo_bar_11/</link>
+      <pubDate>Tue, 09 Jan 2024 23:34:56 +0530</pubDate>
+      <guid>https://sensational-rugelach-b0be35.netlify.app/post/2023-05-12_foo_bar_11/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Lorem Ipsum dolor sit amet 01</title>
+      <link>https://sensational-rugelach-b0be35.netlify.app/post/2023-05-12_foo_bar_1/</link>
+      <pubDate>Tue, 09 Jan 2024 23:34:56 +0530</pubDate>
+      <guid>https://sensational-rugelach-b0be35.netlify.app/post/2023-05-12_foo_bar_1/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Lorem Ipsum dolor sit amet 02</title>
+      <link>https://sensational-rugelach-b0be35.netlify.app/post/2023-05-12_foo_bar_2/</link>
+      <pubDate>Tue, 09 Jan 2024 23:34:56 +0530</pubDate>
+      <guid>https://sensational-rugelach-b0be35.netlify.app/post/2023-05-12_foo_bar_2/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Lorem Ipsum dolor sit amet 03</title>
+      <link>https://sensational-rugelach-b0be35.netlify.app/post/2023-05-12_foo_bar_3/</link>
+      <pubDate>Tue, 09 Jan 2024 23:34:56 +0530</pubDate>
+      <guid>https://sensational-rugelach-b0be35.netlify.app/post/2023-05-12_foo_bar_3/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Lorem Ipsum dolor sit amet 04</title>
+      <link>https://sensational-rugelach-b0be35.netlify.app/post/2023-05-12_foo_bar_4/</link>
+      <pubDate>Tue, 09 Jan 2024 23:34:56 +0530</pubDate>
+      <guid>https://sensational-rugelach-b0be35.netlify.app/post/2023-05-12_foo_bar_4/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Lorem Ipsum dolor sit amet 05</title>
+      <link>https://sensational-rugelach-b0be35.netlify.app/post/2023-05-12_foo_bar_5/</link>
+      <pubDate>Tue, 09 Jan 2024 23:34:56 +0530</pubDate>
+      <guid>https://sensational-rugelach-b0be35.netlify.app/post/2023-05-12_foo_bar_5/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Lorem Ipsum dolor sit amet 06</title>
+      <link>https://sensational-rugelach-b0be35.netlify.app/post/2023-05-12_foo_bar_6/</link>
+      <pubDate>Tue, 09 Jan 2024 23:34:56 +0530</pubDate>
+      <guid>https://sensational-rugelach-b0be35.netlify.app/post/2023-05-12_foo_bar_6/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Lorem Ipsum dolor sit amet 07</title>
+      <link>https://sensational-rugelach-b0be35.netlify.app/post/2023-05-12_foo_bar_7/</link>
+      <pubDate>Tue, 09 Jan 2024 23:34:56 +0530</pubDate>
+      <guid>https://sensational-rugelach-b0be35.netlify.app/post/2023-05-12_foo_bar_7/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Lorem Ipsum dolor sit amet 08</title>
+      <link>https://sensational-rugelach-b0be35.netlify.app/post/2023-05-12_foo_bar_9/</link>
+      <pubDate>Tue, 09 Jan 2024 23:34:56 +0530</pubDate>
+      <guid>https://sensational-rugelach-b0be35.netlify.app/post/2023-05-12_foo_bar_9/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Lorem Ipsum dolor sit amet 09</title>
+      <link>https://sensational-rugelach-b0be35.netlify.app/post/2023-05-12_foo_bar_10/</link>
+      <pubDate>Tue, 09 Jan 2024 23:34:56 +0530</pubDate>
+      <guid>https://sensational-rugelach-b0be35.netlify.app/post/2023-05-12_foo_bar_10/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Lorem Ipsum dolor sit amet 11</title>
+      <link>https://sensational-rugelach-b0be35.netlify.app/post/2023-05-12_foo_bar_12/</link>
+      <pubDate>Tue, 09 Jan 2024 23:34:56 +0530</pubDate>
+      <guid>https://sensational-rugelach-b0be35.netlify.app/post/2023-05-12_foo_bar_12/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Test</title>
+      <link>https://sensational-rugelach-b0be35.netlify.app/post/2023-05-12_test/</link>
+      <pubDate>Tue, 09 Jan 2024 23:34:56 +0530</pubDate>
+      <guid>https://sensational-rugelach-b0be35.netlify.app/post/2023-05-12_test/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Quick Tip: Sort by directory size in linux</title>
+      <link>https://sensational-rugelach-b0be35.netlify.app/post/2024-01-01_foo_bar_1/</link>
+      <pubDate>Mon, 01 Jan 2024 23:34:56 +0530</pubDate>
+      <guid>https://sensational-rugelach-b0be35.netlify.app/post/2024-01-01_foo_bar_1/</guid>
+      <description>If you&amp;rsquo;ve got files hidden around your system and you don&amp;rsquo;t know where they are, you can use a quick command to track them down and sort them with the largest first. Handy when trying to prune your old files or free up space on your hard disk.&#xA;Try this:&#xA;sudo du --max-depth=1 /home/ | sort -n -rs </description>
+    </item>
+    <item>
+      <title>Ten Things I Love About ArchLinux</title>
+      <link>https://sensational-rugelach-b0be35.netlify.app/post/2007-05-31-ten-things-archlinux/</link>
+      <pubDate>Thu, 31 May 2007 10:34:56 +0530</pubDate>
+      <guid>https://sensational-rugelach-b0be35.netlify.app/post/2007-05-31-ten-things-archlinux/</guid>
+      <description>I&amp;rsquo;ve been back on Mac OSX for over a year now, using it for all my daily activities from email and web surfing to programming and device syncing. Something has been eating at me though and I find myself pining for my old linux desktop. Since buying a new rig for kicks is out of the question, I instead dug up a beat up IBM T22 and grabbed my Kubuntu Alternative Install CD and went to it.</description>
+    </item>
+  </channel>
+</rss>
