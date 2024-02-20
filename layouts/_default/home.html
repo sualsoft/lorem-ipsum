@@ -25,7 +25,11 @@
             <h6>{{ .Date.Format "January 2, 2006" }}</h6>
             <p>{{.Description}}</p>
 
-            <a href="{{.Permalink}}">Read More</a>
+            {{ if .Params.customURL }}
+            <a href="{{ .Params.customURL }}">Read More</a>
+            {{ else }}
+            <a href="{{ .Permalink }}">Read More</a>
+            {{ end }}
           </div>
         </div>
       </div>
