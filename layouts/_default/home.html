@@ -26,7 +26,9 @@
             <p>{{.Description}}</p>
 
             {{ if .Params.customURL }}
-            <a href="{{ .Params.customURL }}">Read More</a>
+            <a href="{{ .Params.customURL | safeHTML  }}" target="_blank"
+              >Read More</a
+            >
             {{ else }}
             <a href="{{ .Permalink }}">Read More</a>
             {{ end }}
